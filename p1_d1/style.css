@@ -1,0 +1,85 @@
+.tl-day{
+  display: flex;
+  .day-info{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-left: 10px;
+    color: #999;
+  }
+  margin-bottom: 10px;
+}
+
+.tl-head .tl-day .day-of-week {
+    width: 38px;
+    height: 36px;
+    display: inline-block;
+}
+
+
+
+.tl-head .week-1 {
+    background: url(//s1.hdslb.com/bfs/static/bangumi-timeline/images/icons.png) -146px -36px;
+    background-size: 247px 663px;
+}
+
+
+
+li,ul{
+  margin: 0;
+  padding-left: 10px;
+  list-style: none;
+}
+
+.group-time{
+  font-size:14px;
+}
+
+.season-group{
+  display:flex;
+  margin-bottom: 20px;
+}
+
+.season-item{
+  display:flex;
+}
+
+li.season-item img {
+    width: 72px;
+    height: 72px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: hsla(0,0%,47%,.1);
+    margin-right: 10px;
+}
+
+
+
+.info{
+  display: flex;
+  
+  .season-img{
+    height: 72px;
+  }
+}
+
+.season-body{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-star;
+  
+  .season-title{
+    font-size: 14px;
+    flex:1;
+    
+    a{
+      text-decoration: none;
+      color: #666;
+    }
+  }
+  
+  .season-desc{
+    font-size: 14px;
+    color: #aaa;
+  }
+}
